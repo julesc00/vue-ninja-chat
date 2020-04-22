@@ -26,8 +26,10 @@
             name: this.name,
             timestamp: Date.now()
           }).catch(err => console.log(err));
+          this.newMessage = null;
         } else {
           this.feedback = "Debe escribir un mensaje para envíar uno."
+          this.feedback = null
         }
       }
     }
