@@ -9,7 +9,9 @@
     name: "Chat",
     props: ["name"],
     data() {
+      return {
 
+      }
     }
   }
 </script>
